@@ -25,7 +25,7 @@ body {
   max-height: 609px;
   font-family: "Montserrat", sans-serif;
   margin: 0 16px;
-  border-radius: 0.6rem;
+  border-radius: 0.6em;
 }
 .card__img {
   background-image: url(../images/image-product-mobile.jpg);
@@ -57,12 +57,10 @@ body {
   font-size: 0.88rem;
   color: var(--Dark-grayish-blue);
 }
-
 .card__price {
   margin-top: 20px;
   font-family: "Fraunces", serif;
 }
-
 .card__number {
   margin: 0 23px;
   font-size: 2rem;
@@ -76,4 +74,25 @@ body {
   font-family: "Montserrat", sans-serif;
   text-decoration: line-through;
   color: var(--Dark-grayish-blue);
+}
+.card__button {
+  width: 100%;
+  max-width: 380px;
+  height: 50px;
+  margin-top: 20px;
+}
+.card__button button {
+  background-image: url(../images/icon-cart.svg);
+  background-repeat: no-repeat;
+  background-position: bottom 50% left 84px;
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 298px;
+  height: 50px;
+  border-radius: 0.6em;
+  border: none;
+  background-color: var(--Dark-cyan);
+  color: var(--White);
+  font-size: 0.8rem;
 }
