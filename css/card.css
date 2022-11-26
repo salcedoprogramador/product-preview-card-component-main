@@ -7,7 +7,6 @@
   --Dark-grayish-blue: hsl(228, 12%, 48%);
   --White: hsl(0, 0%, 100%);
 }
-
 body {
   background-color: var(--Cream);
   width: 100%;
@@ -95,4 +94,70 @@ body {
   background-color: var(--Dark-cyan);
   color: var(--White);
   font-size: 0.8rem;
+}
+
+@media (min-width: 600px) {
+  .card__container {
+    width: 100%;
+    max-width: 568px;
+    height: 100%;
+    max-height: 426px;
+    position: relative;
+  }
+  .card__img {
+    width: 50%;
+    max-width: 568px;
+    height: 100%;
+    max-height: 426px;
+    background-image: url(../images/image-product-desktop.jpg);
+  }
+  .card__id {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin: 21px 29px;
+    font-size: 0.7rem;
+  }
+  .card__title {
+    position: absolute;
+    left: 50%;
+    top: 45px;
+    margin: 21px 29px;
+    font-size: 1.9rem;
+  }
+
+  .card__title p {
+    margin: 0;
+    line-height: 1.86rem;
+  }
+  .card__description {
+    position: absolute;
+    left: 50%;
+    top: 140px;
+    margin: 21px 29px;
+    font-size: 0.82rem;
+  }
+  .card__price {
+    margin: 0 6px;
+    position: absolute;
+    left: 50%;
+    top: 290px;
+  }
+  .card__button {
+    position: absolute;
+    margin: 0;
+    left: 50%;
+    top: 350px;
+    width: 50%;
+    max-width: 568px;
+    height: 50%;
+    max-height: 426px;
+  }
+  .card__button button {
+    width: 100%;
+    max-width: 225px;
+    height: 100%;
+    max-height: 45px;
+    background-position: bottom 50% left 44px;
+  }
 }
